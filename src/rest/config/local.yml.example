@@ -1,0 +1,25 @@
+app:
+  port: 3700
+  datasource:
+    driver: postgres
+    host: localhost
+    port: 5432
+    database: sorting_hat
+    username: postgres
+    password: secret
+  logging:
+    development: 1
+  swagger:
+    enabled: 1
+  auth:
+    publicKey: |
+      -----BEGIN PUBLIC KEY-----
+      MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVpxgSHzAtc2mg3/BIKZrKQIbiQoQ
+      LK7oMG/ESGK0AXtPt6AEys9/Jj+3cAIuJmfl3w9f+Au2ADZfL771tpj6rw==
+      -----END PUBLIC KEY-----
+    privateKey: |
+      -----BEGIN EC PRIVATE KEY-----
+      MHcCAQEEII2AfGYkiuUsuK3cJNG7s7nRqc6WOrphwfpdEu983h1IoAoGCCqGSM49
+      AwEHoUQDQgAEVpxgSHzAtc2mg3/BIKZrKQIbiQoQLK7oMG/ESGK0AXtPt6AEys9/
+      Jj+3cAIuJmfl3w9f+Au2ADZfL771tpj6rw==
+      -----END EC PRIVATE KEY-----

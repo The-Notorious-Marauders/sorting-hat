@@ -1,0 +1,9 @@
+app:
+  datasource:
+    driver: postgres
+    host: localhost
+    port: 5432
+    database: sorting_hat
+    username: postgres
+    password: secret
+    migrationSource: file://migrations

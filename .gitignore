@@ -1,0 +1,6 @@
+.idea
+.claude/settings.local.json
+**/config/local.yml
+*.env
+.DS_Store
+tmp

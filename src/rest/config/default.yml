@@ -1,0 +1,11 @@
+app:
+  name: Sorting Hat Auth Service
+  service:
+    serviceName: sorting-hat
+  security:
+    http:
+      publicUrls:
+        - /actuator/health
+        - /actuator/info
+        - /swagger/*
+        - /api/ping
